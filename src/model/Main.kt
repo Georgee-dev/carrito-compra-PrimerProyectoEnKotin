@@ -43,10 +43,10 @@ fun main() {
                 println("Ingresar la Lógica de la factura")
             }
             6 -> {
-                println("👋 Gracias por usar la tienda.")
+                println(" Gracias por usar la tienda.")
                 break
             }
-            else -> println("⚠️ Opción inválida.")
+            else -> println(" Opción inválida.")
         }
     }
 }
