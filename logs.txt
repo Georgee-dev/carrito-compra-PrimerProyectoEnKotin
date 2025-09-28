@@ -1,0 +1,4 @@
+[2025-09-28T16:35:22.042] Agregado Laptop Pro 15" x5 al carrito
+[2025-09-28T16:35:31.245] Compra realizada total 6780.00
+[2025-09-28T16:36:25.488] Agregado Teléfono X x5 al carrito
+[2025-09-28T16:36:31.805] Compra realizada total 4520.00
