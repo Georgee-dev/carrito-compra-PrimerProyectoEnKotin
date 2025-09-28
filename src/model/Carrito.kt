@@ -1,6 +1,6 @@
 package model
 
-//data class model.Producto(val nombre: String, val precio: Double, var stock: Int, var categoria: String)
+// objeto ItemCarrito extrae la informacion de la clase inventario (objeto Producto)
 data class ItemCarrito(val producto: Producto, var cantidad: Int) {
     val subtotal: Double
         get() = producto.precio * cantidad
@@ -17,7 +17,7 @@ class Carrito {
             } else {
                 items.add(ItemCarrito(producto, cantidad))
             }
-            producto.stock -= cantidad
+            producto.stock -= cantidad //actualizamos el stock
             println(" ${producto.nombre} agregado al carrito.")
         } else {
             println(" No hay suficiente stock de ${producto.nombre}.")
@@ -29,7 +29,7 @@ class Carrito {
         if (item != null) {
             if (cantidad < item.cantidad) {
                 item.cantidad -= cantidad
-                item.producto.stock += cantidad
+                item.producto.stock += cantidad //actualizamos el stock
                 println("Se eliminaron $cantidad unidades de ${item.producto.nombre}.")
             } else {
                 // Si pide eliminar más o igual que lo que hay, se borra todo el ítem
@@ -57,4 +57,5 @@ class Carrito {
 
     fun obtenerItems(): List<ItemCarrito> = items
 }
+
 
