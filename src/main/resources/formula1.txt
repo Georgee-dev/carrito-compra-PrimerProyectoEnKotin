@@ -1,0 +1,8 @@
+1|RedBull Racing RB21 1/43|9.99|20
+2|Ferrari SF-25 1/43|9.99|20
+3|Mercedes W16 1/43|9.99|20
+4|McLaren MCL39 1/43|9.99|20
+5|RedBull Racing RB21 1/18|59.99|5
+6|Ferrari SF-25 1/18|59.99|3
+7|Mercedes W16 1/18|59.99|5
+8|McLaren MCL39 1/18|59.99|5
